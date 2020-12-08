@@ -1,6 +1,6 @@
 # JVM内存设计模型
 
-![image][p1]
+![login](https://github.com/whiskas68/Java-SE/blob/master/JVM/screenshots/login.png)
 
 
 
