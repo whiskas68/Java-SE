@@ -1,0 +1,14 @@
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdUnitKeywordTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdUnitItTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\vo\CommonResponse.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\DConstant.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\exception\AdException.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdPlanTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\annotation\IgnoreResponseAdvice.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdUnitDistrictTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdUnitTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\advice\CommonResponseDataAdvice.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\conf\WebConfiguration.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdCreativeTable.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\advice\GlobalExceptionAdvice.java
+G:\网盘\广告系统项目\Imooc-Ad-master\ad-spring-cloud\imooc-ad-service\ad-common\src\main\java\com\imooc\ad\dump\table\AdCreativeUnitTable.java

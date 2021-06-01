@@ -75,7 +75,7 @@ private Node addWaiter(Node mode) {
             //则将尾节点作为当前节点的前驱节点
             node.prev = pred;
             if (compareAndSetTail(pred, node)) {  // 将当前节点设置为尾节点
-                pred.next = node; //不存在线程安全，不管是哪个线程，都将当前节点
+                pred.next = node; //不存在线程安全，不管是哪个线程，都将前驱节点的下个节点指针指向当前节点
                 return node;
             }
         }
@@ -101,7 +101,7 @@ private Node enq(final Node node) {
 
 ```
 
-
+备注：在完整入队（调用enq方法）之前，会优先进行一次入队的尝试（判断尾节点是否为空），之后在进行入队操作。由于enq方法本身是自旋操作，会带来性能开销。因此才会有这样的设计，来提升性能（前后两者（addWaiter方法和enq方法都进行了入队操作）的操作的区别在于，前者多了一次判空的操作）。
 
 
 

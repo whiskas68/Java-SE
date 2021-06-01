@@ -1,0 +1,4 @@
+# idea默认文件
+/.idea/
+/demo*/out/
+/*/target/
