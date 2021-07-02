@@ -1,0 +1,30 @@
+version: '3'
+services:
+  master:
+    image: redis
+    container_name: redis-master
+    command: redis-server  --requirepass 123456  --masterauth 123456
+    volumes:
+      - redisdata:/data
+    ports:
+      - 6380:6379
+  slave1:
+    image: redis
+    container_name: redis-slave-1
+    volumes:
+      - redisdata:/data
+    ports:
+      - 6381:6379
+    command:  redis-server --slaveof redis-master 6379 --masterauth 123456  --requirepass 123456
+  slave2:
+    image: redis
+    container_name: redis-slave-2
+    volumes:
+      - redisdata:/data
+    ports:
+      - 6382:6379
+    command: redis-server --slaveof redis-master 6379 --masterauth 123456 --requirepass 123456
+#Volumes
+volumes:
+  redisdata:
+    driver: local

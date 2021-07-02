@@ -1,0 +1,15 @@
+version: '3'
+services:
+  master:
+    image: redis
+    restart: always
+    container_name: redis-master
+    command: redis-server  --requirepass 123456  --masterauth 123456
+    volumes:
+      - redisdata:/data
+    ports:
+      - 6380:6379
+#Volumes
+volumes:
+  redisdata:
+    driver: local
