@@ -14,7 +14,7 @@ spring:
       hibernate.format_sql: true
     open-in-view: false
   datasource:
-    url: jdbc:mysql://192.168.174.131:32206/imooc_ad_data?autoReconnect=true
+    url: jdbc:mysql://localhost:3306/imooc_ad_data?allowPublicKeyRetrieval=true&autoReconnect=true&useSSL=false
     username: root
     password: 123456
     tomcat:
@@ -25,6 +25,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://server1:8000/eureka/
+      defaultZone: http://localhost:8000/eureka/
 
 
